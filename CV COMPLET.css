@@ -1,0 +1,337 @@
+.ParinteTrain{
+    position: relative;
+    font-family: Arial;
+    font-size: 60px;
+    margin-top: 0px;
+    left: 700px;
+    top:150px;
+    z-index: 1110;
+}
+.BackgroundPicture{
+    position: absolute;
+    bottom: -20px;
+    width: 1600px;
+}
+.container{
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0px;
+}
+.container-me{
+    margin: 0 auto;
+    padding-top: 20px;
+    background-image: url(http://4.bp.blogspot.com/-djQtd7QRZa8/VjIiyupUYUI/AAAAAAAAIuE/NlRr9H-VnZ4/s1600/fog-covered-fir-forest-photography-hd-wallpaper-1920x1080-3465.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 200px;
+}
+.greyBackground{
+    background-color: #F2F3F8;
+    padding: 50px;
+}
+.numeSpecializare{
+    text-align: center;
+}
+.Nume{
+    font-family: Alegreya Sans SC;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    color: #000000;
+}
+.numeSpecializare .designer{
+    margin-top: 0px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-family: Montserrat;
+    color: #C6C1C7;
+    text-align: center;
+    font-weight: 300;
+}
+.Poza{
+    border: 4px solid #4A4843;
+    border-radius: 50%;
+    margin-top: 220px;
+}
+.designer span{
+    padding-left: 10px;
+}
+body{
+    margin: 0px;
+}
+
+.Education .Edu{
+    color: #151515;
+    font-family: Alegreya Sans SC;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    font-size: 50px;
+    padding-top: 0px;
+    font-weight: lighter;
+    border-bottom-style: dotted;
+    border-bottom-width:medium;
+    text-align: center;
+    animation-delay: 2s;
+}
+.educationData ul li{
+    color: #151515;
+    font-family: Montserrat;
+    padding-bottom: 10px;
+}
+.highschool{
+    animation-delay: 2.5s;
+    font-size: 35px;
+    margin-top: 100px;
+}
+.bachlor{
+    animation-delay: 3s;
+    font-size: 35px;
+    margin-top: 30px;
+}
+.master{
+    animation-delay: 3.5s;
+    font-size: 35px;
+    margin-top: 30px;
+    padding-bottom: 100px;
+    margin-bottom: 200px;
+}
+span.line_wrap {
+    position:relative;
+    display:inline-block;        
+}
+span.line {
+display:inline-block;
+    position:absolute;
+    left:0;
+    top:50%;
+    width:0;
+    border-top:1px solid grey;
+    -webkit-transition: width 0.5s ease-in;
+}
+span.line_wrap:hover span.line {
+    width:100%;
+}
+
+.blackBackground {
+    background-color: #384142;
+    padding: 50px;
+    padding-bottom: 430px;
+    margin-bottom: 0px;
+}
+.skills h2{
+    font-family: Alegreya Sans SC;
+    margin-top: 100px;
+    color: #ffffff;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 50px;
+    border-bottom-style:dotted;
+    border-bottom-width:medium;
+    animation-delay: 5s;
+}
+
+.skillsLeft{
+    float: left;
+    width: 50%; 
+    text-align: center;
+}
+.skillsRight{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+.skillsLeft ul{
+    margin-top: 0px;
+}
+.skillsRight ul{
+    margin-top: 0px;
+}
+.skillsLeft ul li{
+    list-style: none;
+    border-bottom-width: 50%;
+    margin-bottom: 25px;
+    font-family: Alegreya Sans SC;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+.photoshopBar{
+    color: #000000;
+    width: 135px;
+    animation-delay: 6s;
+    margin: 50px;
+    padding-left: 70px;
+}
+.photoshopBar:hover{
+    cursor: pointer;
+    transition: color 0.5s ease;
+    text-decoration: overline;
+    color: #ffffff;
+}
+.lightroomBar{
+    color: #000000;
+    width: 135px;
+    animation-delay: 6.5s;
+    margin: 50px;
+    padding-left: 70px;
+}
+.lightroomBar:hover{
+    cursor: pointer;
+    transition: color 0.5s ease;
+    text-decoration: overline;
+    color: #ffffff;
+}
+.premiereBar{
+    color: #000000;
+    width: 160px;
+    animation-delay: 7s;
+    margin: 50px;
+    padding-left: 70px;
+}
+.premiereBar:hover{
+    cursor: pointer;
+    transition: color 0.5s ease;
+    text-decoration: overline;
+    color: #ffffff;
+}
+.shotcutBar{
+    color: #000000;
+    width: 105px;
+    animation-delay: 7.5s;
+    margin: 50px;
+    padding-left: 70px;
+}
+.shotcutBar:hover{
+    cursor: pointer;
+    transition: color 0.5s ease;
+    text-decoration: overline;
+    color: #ffffff;
+}
+.skillsRight ul li{
+    list-style: none;
+    margin-bottom: 25px;
+    font-family: Alegreya Sans SC;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.html{
+    color: #000000;
+    width: 60px;
+    animation-delay: 6s;
+    margin: 50px;
+    padding-left: 70px;
+}
+.html:hover{
+    cursor: pointer;
+    transition: color 0.5s ease;
+    text-decoration: overline;
+    color: #ffffff;
+}
+.css{
+    color: #000000;
+    width: 45px;
+    animation-delay: 6.5s;
+    margin: 50px;
+    padding-left: 70px;
+}
+.css:hover{
+    cursor: pointer;
+    transition: color 0.5s ease;
+    text-decoration: overline;
+    color: #ffffff;
+}
+.js{
+    color: #000000;
+    width: 127px;
+    animation-delay: 7s;
+    margin: 50px;
+    padding-left: 70px;
+}
+.js:hover{
+    cursor: pointer;
+    transition: color 0.5s ease;
+    text-decoration: overline;
+    color: #ffffff;
+}
+.java{
+    color: #000000;
+    width: 50px;
+    animation-delay: 7.5s;
+    margin: 50px;
+    padding-left: 70px;
+}
+.java:hover{
+    cursor: pointer;
+    transition: color 0.5s ease;
+    text-decoration: overline;
+    color: #ffffff;
+}
+.footer p{
+    font-family: Alegreya Sans SC;
+    font-weight: bold;
+    float: left;
+    margin-top: 0px;
+}
+.footerColor{
+    margin-top: 0px;
+    background-color: #4A4E57;
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+.icons ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.icons ul{
+    margin: 0px;
+}
+.facebook{
+    font-size: 25px;
+    margin-top: 0px;
+    color: #ffffff;
+    animation-delay: 8s;
+}
+.facebook:hover{
+    transition: color 0.5s ease;
+    color: #000000;
+}
+.instagram{
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 15px;
+    color: #ffffff;
+    animation-delay: 8.5s;
+}
+.instagram:hover{
+    transition: color 0.5s ease;
+    color: #000000;
+}
+.linkedin{
+    font-size: 25px;
+    margin-left: 15px;
+    color: #ffffff;
+    animation-delay: 9s;
+}
+.linkedin:hover{
+    transition: color 0.5s ease;
+    color: #000000;
+}
+.youtube{
+    font-size: 25px;
+    margin-left: 15px;
+    color: #ffffff;
+    animation-delay: 9.5s;
+}
+.youtube:hover{
+    transition: color 0.5s ease;
+    color: #000000; 
+}
